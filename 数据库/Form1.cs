@@ -158,7 +158,8 @@ namespace 数据库
                     Pages = TotalRows / 5 + 1;
                 }
                 LblTotalPage.Text = Pages.ToString();
-                lblCurrentPage.Text = "1";                        
+                lblCurrentPage.Text = "1";
+                                        
                 ShowData(0, 5);
             }
         }
